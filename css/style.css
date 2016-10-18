@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Better text styling */
+  font: bold 14px Arial, sans-serif; }
+
+html {
+  height: 100%;
+  background: white;
+  background: radial-gradient(circle, #fff 20%, #888);
+  background-size: cover; }
+
+.calculator {
+  width: 325px;
+  height: auto;
+  margin: 25px auto 0;
+  margin: 100px auto;
+  padding: 20px;
+  background: #9dd2ea;
+  background: linear-gradient(#9dd2ea, #8bceec);
+  border-radius: 3px;
+  box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2); }
+  .calculator .main-header {
+    width: 290px;
+    height: auto; }
+    .calculator .main-header .screen {
+      width: 280px;
+      height: 40px;
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 3px;
+      box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+      padding: 0 10px;
+      font-size: 20px;
+      color: #fff;
+      text-align: right;
+      margin: 10px 0px 10px 1px; }
+    .calculator .main-header .brand {
+      font-size: 1.5em;
+      display: inline-block; }
+    .calculator .main-header .sub {
+      text-transform: lowercase;
+      font-style: italic;
+      font-size: 0.9em;
+      margin: 5px 14px 0px 0px;
+      float: right; }
+  .calculator .keys {
+    margin: 20px auto 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .calculator .keys .result {
+      background-color: yellow; }
+    .calculator .keys .operator {
+      background: #fff0f5;
+      font-size: 1.5em;
+      padding-top: 5px; }
+    .calculator .keys span {
+      width: 60px;
+      height: 35px;
+      display: inline-block;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      color: #888;
+      margin-bottom: 10px;
+      background-color: #fff;
+      border-radius: 3px;
+      box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+      padding-top: 10px;
+      transition: all 0.2s ease; }
+      .calculator .keys span:hover {
+        background-color: #9c89f6;
+        box-shadow: 0px 4px #6b54d3;
+        color: #fff; }
+      .calculator .keys span:active {
+        background-color: #9c89f6;
+        box-shadow: 0 2px #666;
+        transform: translateY(4px); }
+    .calculator .keys .clear {
+      background-color: red;
+      color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
