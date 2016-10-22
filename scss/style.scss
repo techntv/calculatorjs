@@ -21,12 +21,19 @@
 	/* Better text styling */
 	font: bold 14px Arial, sans-serif;
 }
-html {
-	height: 100%;
-	background: white;
-	background: radial-gradient(circle, #fff 20%, #888);
-	background-size: cover;
+
+body{
+  background-image: url('../img/calcw.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
+// html {
+// 	height: 100%;
+// 	background: white;
+// 	background: radial-gradient(circle, #fff 20%, #888);
+// 	background-size: cover;
+// }
 
 .calculator{
   @include width_height_el(325px,auto);
